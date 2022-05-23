@@ -1,0 +1,15 @@
+.aside {
+	grid-area: aside;
+}
+
+.list {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+	.list {
+		flex-direction: column;
+	}
+}

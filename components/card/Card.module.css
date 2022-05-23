@@ -1,0 +1,31 @@
+.card {
+	display: grid;
+	padding: 16px;
+	overflow: hidden;
+	min-height: 200px;
+	border-radius: 10px;
+	place-items: center;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	grid-template-rows: 1fr auto;
+}
+
+.link {
+	transition: transform 0.3s;
+}
+
+.cardContent {
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+
+@media (min-width: 1200px) {
+	.link {
+		transform: translateY(40px);
+	}
+
+	.card:hover .link {
+		transform: translateY(0px);
+	}
+}

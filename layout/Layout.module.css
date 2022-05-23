@@ -1,0 +1,34 @@
+.wrapper {
+	gap: 24px;
+	display: grid;
+	min-height: 100vh;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1800px;
+	margin: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	grid-template-areas:
+		"header"
+		"aside"
+		"main"
+		"footer";
+	justify-content: center;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto 1fr auto;
+}
+
+@media (min-width: 1200px) {
+	.wrapper {
+		grid-template-columns: auto 1fr;
+		grid-template-rows: auto 1fr auto;
+		grid-template-areas:
+			"header header"
+			"aside main"
+			"footer footer";
+	}
+}
+
+main.main {
+	grid-area: main;
+}
