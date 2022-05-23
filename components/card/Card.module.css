@@ -11,7 +11,11 @@
 }
 
 .link {
-	transition: transform 0.3s;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: transform 0.3s, background-color 0.3s;
+	color: #fff;
+	border-radius: 8px;
+	padding: 4px 8px;
 }
 
 .cardContent {
@@ -22,10 +26,14 @@
 
 @media (min-width: 1200px) {
 	.link {
-		transform: translateY(40px);
+		transform: translateY(50px);
 	}
 
 	.card:hover .link {
 		transform: translateY(0px);
+	}
+
+	.card:hover .link:hover {
+		background-color: rgba(0, 0, 0, 0.8);
 	}
 }

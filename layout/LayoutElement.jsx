@@ -5,6 +5,7 @@ import React, { useRef } from "react";
 const LayoutElement = ({ children, ...props }) => {
 	const cssAreaRef = useRef(null);
 	const htmlAreaRef = useRef(null);
+	const jsAreaRef = useRef(null);
 
 	function copyToClipboard(ref) {
 		// save code to clipboard
@@ -12,14 +13,19 @@ const LayoutElement = ({ children, ...props }) => {
 	}
 
 	return (
-		<div className='container-element'>
+		<div className={styles.containerElement}>
 			{children}
-			{/* <CodeBlock onClick={() => copyToClipboard(htmlAreaRef)} ref={htmlAreaRef}>
+			<CodeBlock onClick={() => copyToClipboard(htmlAreaRef)} ref={htmlAreaRef} title='HTML'>
 				{props.htmlCode}
-			</CodeBlock> */}
-			<CodeBlock onClick={() => copyToClipboard(cssAreaRef)} ref={cssAreaRef}>
+			</CodeBlock>
+			<CodeBlock onClick={() => copyToClipboard(cssAreaRef)} ref={cssAreaRef} title='CSS'>
 				{props.cssCode}
 			</CodeBlock>
+			{props.jsCode && (
+				<CodeBlock onClick={() => copyToClipboard(jsAreaRef)} ref={jsAreaRef} title='JS'>
+					{props.jsCode}
+				</CodeBlock>
+			)}
 		</div>
 	);
 };
