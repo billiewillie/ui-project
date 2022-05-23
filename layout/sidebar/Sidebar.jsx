@@ -4,24 +4,24 @@ import styles from "./Sidebar.module.css";
 const links = [
 	{
 		href: "/",
-		text: "all",
+		text: "Popular",
 	},
 	{
 		href: "/buttons",
-		text: "buttons",
+		text: "Buttons",
 	},
 	{
 		href: "/inputs",
-		text: "inputs",
+		text: "Inputs",
 	},
 	{
 		href: "/checkboxes",
-		text: "checkboxes",
+		text: "Checkboxes",
 	},
 ];
 
 const listItems = links.map(({ href, text }) => (
-	<li key={text}>
+	<li key={text} className={styles.listItem}>
 		<Link href={href}>{text}</Link>
 	</li>
 ));
