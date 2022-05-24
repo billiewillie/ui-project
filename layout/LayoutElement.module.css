@@ -4,5 +4,11 @@
 	align-content: start;
 	align-items: start;
 	height: 100%;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (min-width: 1200px) {
+	.containerElement {
+		grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+	}
 }

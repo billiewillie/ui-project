@@ -6,6 +6,7 @@ const LayoutElement = ({ children, ...props }) => {
 	const cssAreaRef = useRef(null);
 	const htmlAreaRef = useRef(null);
 	const jsAreaRef = useRef(null);
+	const jsxAreaRef = useRef(null);
 
 	function copyToClipboard(ref) {
 		const copied = ref.current.closest("div").querySelector(".copyblock").querySelector("span");
@@ -23,13 +24,17 @@ const LayoutElement = ({ children, ...props }) => {
 			<CodeBlock onClick={() => copyToClipboard(htmlAreaRef)} ref={htmlAreaRef} title='HTML'>
 				{props.htmlCode}
 			</CodeBlock>
-			<CodeBlock onClick={() => copyToClipboard(cssAreaRef)} ref={cssAreaRef} title='CSS'>
+			<CodeBlock onClick={() => copyToClipboard(cssAreaRef)} ref={cssAreaRef} title='CSS' className={styles.cssblock} id='hello'>
 				{props.cssCode}
 			</CodeBlock>
-
 			{props.jsCode && (
 				<CodeBlock onClick={() => copyToClipboard(jsAreaRef)} ref={jsAreaRef} title='JS'>
 					{props.jsCode}
+				</CodeBlock>
+			)}
+			{props.jsxCode && (
+				<CodeBlock onClick={() => copyToClipboard(jsxAreaRef)} ref={jsxAreaRef} title='JSX'>
+					{props.jsxCode}
 				</CodeBlock>
 			)}
 		</div>

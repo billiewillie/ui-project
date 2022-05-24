@@ -36,12 +36,18 @@
 .pre {
 	line-height: 1.5;
 	overflow: auto;
-	padding: 16px;
 	text-align: left;
+	padding-right: 16px;
 }
 
 @media (min-width: 768px) {
 	.htmlblock {
+		grid-column: 1/2;
+	}
+	.pre {
+		min-height: 164px;
+	}
+	.cssblock {
 		grid-column: 1/2;
 	}
 }

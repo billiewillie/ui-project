@@ -3,8 +3,9 @@ import styles from "./CodeBlock.module.css";
 
 const CodeBlock = React.forwardRef((props, ref) => {
 	const tagClass = props.title === "HTML" ? "htmlblock" : null;
+	const style = props.title === "CSS" ? `${styles.cssblock} ${styles.codeblock}` : `${styles.codeblock}`;
 	return (
-		<div className={styles.codeblock}>
+		<div className={style}>
 			<header className={styles.codeHeader}>
 				<span>{props.title}</span>
 				<div className='copyblock'>
