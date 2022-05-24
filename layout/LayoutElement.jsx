@@ -1,6 +1,6 @@
 import styles from "./LayoutElement.module.css";
 import CodeBlock from "../components/codeBlock/CodeBlock.jsx";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 
 const LayoutElement = ({ children, ...props }) => {
 	const cssAreaRef = useRef(null);

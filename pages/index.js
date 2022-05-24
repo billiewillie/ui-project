@@ -5,16 +5,6 @@ export default function Home() {
 		<div className='container'>
 			<Button1 />
 			<Button2 />
-			<Button1 />
-			<Button2 />
-			<Button1 />
-			<Button2 />
-			<Button1 />
-			<Button2 />
-			<Button1 />
-			<Button2 />
-			<Button1 />
-			<Button2 />
 		</div>
 	);
 }
