@@ -12,6 +12,11 @@
 	overflow: hidden;
 	border-radius: 8px;
 	background-color: #ccc;
+	border: 1px solid transparent;
+}
+
+.listItemActive {
+	border: 1px solid #000;
 }
 
 .listItem a {

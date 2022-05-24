@@ -1,3 +1,6 @@
 footer.footer {
+	display: grid;
 	grid-area: footer;
+	justify-content: center;
+	padding: 16px;
 }

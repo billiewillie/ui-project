@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Sidebar.module.css";
+import { useRouter } from "next/router";
 
 const links = [
 	{
@@ -20,16 +21,22 @@ const links = [
 	},
 ];
 
-const listItems = links.map(({ href, text }) => (
-	<li key={text} className={styles.listItem}>
-		<Link href={href}>{text}</Link>
-	</li>
-));
-
 const Sidebar = () => {
+	const router = useRouter();
+
 	return (
 		<aside className={styles.aside}>
-			<ul className={styles.list}>{listItems}</ul>
+			<ul className={styles.list}>
+				{links.map(({ href, text }) => {
+					console.log(router.pathname);
+					const style = router.pathname === href ? `${styles.listItem} ${styles.listItemActive}` : `${styles.listItem}`;
+					return (
+						<li key={text} className={style}>
+							<Link href={href}>{text}</Link>
+						</li>
+					);
+				})}
+			</ul>
 		</aside>
 	);
 };
