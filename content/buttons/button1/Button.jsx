@@ -2,7 +2,7 @@ import styles from "./Button.module.css";
 
 import Card from "../../../components/card/Card.jsx";
 
-const button = () => {
+const Button = () => {
 	return (
 		<Card type='buttons' id='button1'>
 			<button className={styles.button}>hover me</button>
@@ -10,4 +10,4 @@ const button = () => {
 	);
 };
 
-export default button;
+export default Button;
