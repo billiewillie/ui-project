@@ -1,4 +1,4 @@
-import { Button2 } from "../../../content/buttons";
+import { Button1 } from "../../../content/buttons";
 import LayoutElement from "../../../layout/LayoutElement.jsx";
 
 export default function ButtonPage1() {
@@ -85,7 +85,7 @@ export default function ButtonPage1() {
 
 	return (
 		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode} jsxCode={jsxCode}>
-			<Button2 />
+			<Button1 />
 		</LayoutElement>
 	);
 }
