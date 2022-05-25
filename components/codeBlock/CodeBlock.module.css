@@ -4,6 +4,7 @@
 	border-radius: 10px;
 	overflow: hidden;
 	border: 1px solid deepskyblue;
+	align-content: flex-start;
 }
 
 .codeHeader {
@@ -13,6 +14,7 @@
 	background-color: deepskyblue;
 	padding: 4px 8px;
 	color: #fff;
+	max-height: 34px;
 }
 
 .codebutton {
