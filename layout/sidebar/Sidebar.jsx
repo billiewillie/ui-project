@@ -32,7 +32,6 @@ const Sidebar = () => {
 		<aside className={styles.aside}>
 			<ul className={styles.list}>
 				{links.map(({ href, text }) => {
-					console.log(router.pathname);
 					const style = router.pathname === href ? `${styles.listItem} ${styles.listItemActive}` : `${styles.listItem}`;
 					return (
 						<li key={text} className={style}>
