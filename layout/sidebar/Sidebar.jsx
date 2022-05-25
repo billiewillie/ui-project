@@ -8,12 +8,16 @@ const links = [
 		text: "Popular",
 	},
 	{
+		href: "/inputs",
+		text: "Inputs",
+	},
+	{
 		href: "/buttons",
 		text: "Buttons",
 	},
 	{
-		href: "/inputs",
-		text: "Inputs",
+		href: "/links",
+		text: "Link hovers",
 	},
 	{
 		href: "/checkboxes",

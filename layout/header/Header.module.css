@@ -1,5 +1,10 @@
-header.header {
+.header {
 	grid-area: header;
 	padding-top: 16px;
 	padding-bottom: 16px;
+}
+
+.logo {
+	cursor: pointer;
+	display: inline-block;
 }

@@ -4,6 +4,7 @@
 	align-content: start;
 	align-items: start;
 	height: 100%;
+	align-items: stretch;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 

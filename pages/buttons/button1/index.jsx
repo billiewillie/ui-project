@@ -1,8 +1,5 @@
 import { Button1 } from "../../../content/buttons";
-import dynamic from "next/dynamic";
 import LayoutElement from "../../../layout/LayoutElement.jsx";
-
-const CodeEditor = dynamic(() => import("@uiw/react-textarea-code-editor").then((mod) => mod.default), { ssr: false });
 
 export default function ButtonPage1() {
 	const htmlCode = `
