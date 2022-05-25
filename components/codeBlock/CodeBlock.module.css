@@ -46,9 +46,6 @@
 	.htmlblock {
 		grid-column: 1/2;
 	}
-	.pre {
-		min-height: 164px;
-	}
 	.cssblock {
 		grid-column: 1/2;
 	}
