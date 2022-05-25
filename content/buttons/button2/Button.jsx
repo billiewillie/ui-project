@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const Button = () => {
 	const [coords, setCoords] = useState({ x: 0, y: 0 });
+	console.log();
 	const handeMouseOver = (e) => {
 		setCoords({
 			x: e.clientX - e.target.offsetLeft,
