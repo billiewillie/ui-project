@@ -11,14 +11,14 @@ export default function Home() {
 			<Head>
 				<title>Beautiful UI elements</title>
 			</Head>
-			<Button1 />
-			<Input2 />
-			<Link1 />
-			<Input1 />
-			<Checkbox1 />
-			<Toggle1 />
 			<Button2 />
 			<Input3 />
+			<Link1 />
+			<Input2 />
+			<Checkbox1 />
+			<Button1 />
+			<Toggle1 />
+			<Input1 />
 		</div>
 	);
 }

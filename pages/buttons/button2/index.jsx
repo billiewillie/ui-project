@@ -24,7 +24,7 @@ export default function ButtonPage1() {
 		position: absolute;
 		transform: translate(-50%, -50%);
 		background-color: rgb(15, 77, 97);
-		transition: width 0.3s, height 0.3s;
+		transition: width 0.5s, height 0.5s;
 		border-radius: 50%;
 		height: 0;
 		width: 0;
