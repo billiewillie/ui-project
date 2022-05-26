@@ -1,0 +1,80 @@
+import { Input3 } from "../../../content/inputs";
+import LayoutElement from "../../../layout/LayoutElement.jsx";
+
+export default function InputPage3() {
+	const htmlCode = `
+  <div class="group">
+      <input type="text" class="input" id='myInput' required />
+      <label for='myInput' class="label">Email</label>
+  </div>
+	`;
+
+	const jsCode = `
+  const labels = document.querySelectorAll('.group .label');
+  
+  labels.forEach(label => {
+      label.innerHTML = label.innerText
+          .split('')
+          .map((letter, idx) => \`<span style="transition-delay: \${idx * 50}ms">\${letter}</span>\`)
+          .join('')
+  });
+  `;
+
+	const cssCode = ` 
+  .group {
+      width: 100%;
+      max-width: 180px;
+      position: relative;
+  }
+  
+  .input {
+      border: 0;
+      border-bottom: 2px solid #333;
+      padding: 8px 0 16px;
+      display: block;
+      font-size: 16px;
+      width: 100%;
+      transition: 0.3s ease-in;
+  }
+  
+  .label {
+      top: 0;
+      display: block;
+      font-size: 16px;
+      transition: 0.3s;
+      color: #9b9b9b;
+      position: absolute;
+      pointer-events: none;
+  }
+  
+  .input:focus {
+      border-bottom-color: darksalmon;
+      outline: none;
+  }
+  
+  .input:focus + .label span {
+      color: darksalmon;
+      transform: translateY(-30px);
+  }
+  
+  .label {
+      position: absolute;
+      top: 16px;
+      left: 0;
+      cursor: text;
+  }
+  
+  .label span {
+      display: inline-block;
+      font-size: 16px;
+      min-width: 5px;
+      transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }   
+	`;
+
+	return (
+		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode}>
+			<Input3 />
+		</LayoutElement>
+	);
+}

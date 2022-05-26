@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Button1, Button2 } from "../content/buttons";
 import { Link1 } from "../content/links";
-import { Input1, Input2 } from "../content/inputs";
+import { Input1, Input2, Input3 } from "../content/inputs";
 import { Checkbox1 } from "../content/checkboxes";
 import { Toggle1 } from "../content/toggles";
 
@@ -18,6 +18,7 @@ export default function Home() {
 			<Checkbox1 />
 			<Toggle1 />
 			<Button2 />
+			<Input3 />
 		</div>
 	);
 }

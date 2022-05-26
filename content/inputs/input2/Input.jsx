@@ -5,8 +5,8 @@ const Input = () => {
 	return (
 		<Card id='input2' type='inputs'>
 			<div className={styles.group}>
-				<input required='' placeholder='Name' className={styles.input} type='input' />
-				<label className={styles.label} htmlFor='name'>
+				<input required='' placeholder='Name' id='input2name' className={styles.input} type='input' />
+				<label className={styles.label} htmlFor='input2name'>
 					Name
 				</label>
 			</div>
