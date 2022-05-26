@@ -23,6 +23,10 @@ const links = [
 		href: "/checkboxes",
 		text: "Checkboxes",
 	},
+	{
+		href: "/toggles",
+		text: "Toggles",
+	},
 ];
 
 const Sidebar = () => {

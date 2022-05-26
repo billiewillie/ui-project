@@ -4,8 +4,8 @@ import LayoutElement from "../../../layout/LayoutElement.jsx";
 export default function CheckboxPage1() {
 	const htmlCode = `
   <div class="wrapper">
-    <input id="cbx1" checked="" type='checkbox' class="hidden" />
-    <label for="cbx1" class="cbx"></label>
+      <input id="cbx1" checked="" type='checkbox' class="hidden" />
+      <label for="cbx1" class="cbx"></label>
   </div>
 	`;
 

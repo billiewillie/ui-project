@@ -3,6 +3,7 @@ import { Button1, Button2 } from "../content/buttons";
 import { Link1 } from "../content/links";
 import { Input1, Input2 } from "../content/inputs";
 import { Checkbox1 } from "../content/checkboxes";
+import { Toggle1 } from "../content/toggles";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			<Input1 />
 			<Input2 />
 			<Checkbox1 />
+			<Toggle1 />
 		</div>
 	);
 }
