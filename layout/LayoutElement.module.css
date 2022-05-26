@@ -10,6 +10,7 @@
 
 @media (min-width: 1200px) {
 	.containerElement {
+		grid-gap: 16px;
 		grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
 	}
 }
