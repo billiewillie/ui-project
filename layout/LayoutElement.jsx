@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 
 const LayoutElement = ({ children, ...props }) => {
 	const cssAreaRef = useRef(null);
+	const scssAreaRef = useRef(null);
 	const htmlAreaRef = useRef(null);
 	const jsAreaRef = useRef(null);
 	const jsxAreaRef = useRef(null);
@@ -24,9 +25,16 @@ const LayoutElement = ({ children, ...props }) => {
 			<CodeBlock onClick={() => copyToClipboard(htmlAreaRef)} ref={htmlAreaRef} title='HTML'>
 				{props.htmlCode}
 			</CodeBlock>
-			<CodeBlock onClick={() => copyToClipboard(cssAreaRef)} ref={cssAreaRef} title='CSS' className={styles.cssblock} id='hello'>
-				{props.cssCode}
-			</CodeBlock>
+			{props.cssCode && (
+				<CodeBlock onClick={() => copyToClipboard(cssAreaRef)} ref={cssAreaRef} title='CSS' className={styles.cssblock} id='css'>
+					{props.cssCode}
+				</CodeBlock>
+			)}
+			{props.scssCode && (
+				<CodeBlock onClick={() => copyToClipboard(scssAreaRef)} ref={scssAreaRef} title='SCSS' className={styles.cssblock} id='scss'>
+					{props.scssCode}
+				</CodeBlock>
+			)}
 			{props.jsCode && (
 				<CodeBlock onClick={() => copyToClipboard(jsAreaRef)} ref={jsAreaRef} title='JS'>
 					{props.jsCode}

@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import styles from "./CodeBlock.module.css";
 
 const CodeBlock = React.forwardRef((props, ref) => {
-	const tagClass = props.title === "HTML" ? "htmlblock" : null;
-	const style = props.title === "CSS" ? `${styles.cssblock} ${styles.codeblock}` : `${styles.codeblock}`;
+	const style = props.title === /\.(sc|c)ss$/ ? `${styles.cssblock} ${styles.codeblock}` : `${styles.codeblock}`;
 	return (
 		<div className={style}>
 			<header className={styles.codeHeader}>

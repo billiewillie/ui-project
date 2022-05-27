@@ -43,9 +43,6 @@
 }
 
 @media (min-width: 768px) {
-	.htmlblock {
-		grid-column: 1/2;
-	}
 	.cssblock {
 		grid-column: 1/2;
 	}
