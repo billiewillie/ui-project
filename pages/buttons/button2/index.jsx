@@ -44,6 +44,7 @@ export default function ButtonPage1() {
 		height: 300px;
 	}
 	`;
+
 	const jsCode = `
 	let button = document.querySelector('.button');
 	button.onmousemove = (e) => {
@@ -54,6 +55,7 @@ export default function ButtonPage1() {
 		button.style.setProperty('--y', y + 'px');
 	}
 	`;
+
 	const jsxCode = `
 	import styles from "./Button.module.css";
 	import { useState } from "react";
@@ -68,17 +70,15 @@ export default function ButtonPage1() {
 		};
 	
 		return (
-			<Card id='button2' type='buttons'>
-				<button 
-					onMouseEnter={(e) => handeMouseOver(e)} 
-					className={styles.button} 
-					style={{ 
-						"--x": coords.x + "px", 
-						"--y": coords.y + "px" 
-					}}>
-					<span>hover me</span>
-				</button>
-			</Card>
+			<button 
+				onMouseEnter={(e) => handeMouseOver(e)} 
+				className={styles.button} 
+				style={{ 
+					"--x": coords.x + "px", 
+					"--y": coords.y + "px" 
+				}}>
+				<span>hover me</span>
+			</button>
 		);
 	};
 	`;
