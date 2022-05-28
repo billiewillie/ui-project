@@ -3,7 +3,7 @@ import LayoutElement from "../../../layout/LayoutElement.jsx";
 
 export default function ButtonPage3() {
 	const htmlCode = `
-	<button className={styles.button}>
+	<button class={styles.button}>
 		<span>Hover me</span>
 	</button>
 	`;

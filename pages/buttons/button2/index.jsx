@@ -40,8 +40,8 @@ export default function ButtonPage2() {
 	}
 	
 	.button:hover::after {
-		width: 300px;
-		height: 300px;
+		width: 400px;
+		height: 400px;
 	}
 	`;
 

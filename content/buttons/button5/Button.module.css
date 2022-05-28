@@ -2,10 +2,8 @@
 	pointer-events: auto;
 	cursor: pointer;
 	background: #e7e7e7;
-	margin: 0;
 	position: relative;
 	display: inline-block;
-	font-weight: 500;
 	padding: 1rem 1.5rem;
 	border: 1px solid #000;
 	overflow: hidden;
@@ -32,7 +30,6 @@
 .button span {
 	display: block;
 	position: relative;
-	z-index: 1;
 }
 
 .button > span {
@@ -41,6 +38,7 @@
 
 .button > span > span {
 	overflow: hidden;
+	z-index: 1;
 	mix-blend-mode: difference;
 }
 
