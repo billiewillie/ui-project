@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Button1, Button2 } from "../../content/buttons";
+import { Button1, Button2, Button3 } from "../../content/buttons";
 
 export default function ButtonPage() {
 	return (
@@ -9,6 +9,7 @@ export default function ButtonPage() {
 			</Head>
 			<Button1 />
 			<Button2 />
+			<Button3 />
 		</div>
 	);
 }

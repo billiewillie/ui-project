@@ -1,7 +1,7 @@
 import { Button2 } from "../../../content/buttons";
 import LayoutElement from "../../../layout/LayoutElement.jsx";
 
-export default function ButtonPage1() {
+export default function ButtonPage2() {
 	const htmlCode = `
 	<button class="button">
 		<span>hover me</span>
