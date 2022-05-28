@@ -3,7 +3,7 @@ import { Button1, Button2 } from "../content/buttons";
 import { Link1, Link2, Link3, Link4 } from "../content/links";
 import { Input1, Input2, Input3 } from "../content/inputs";
 import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5 } from "../content/checkboxes";
-import { Toggle1, Toggle2 } from "../content/toggles";
+import { Toggle1, Toggle2, Toggle3 } from "../content/toggles";
 
 export default function Home() {
 	return (
@@ -11,6 +11,7 @@ export default function Home() {
 			<Head>
 				<title>Beautiful UI elements</title>
 			</Head>
+			<Toggle3 />
 			<Checkbox4 />
 			<Toggle2 />
 			<Button2 />

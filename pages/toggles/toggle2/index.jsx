@@ -3,9 +3,9 @@ import LayoutElement from "../../../layout/LayoutElement.jsx";
 
 export default function TogglePage2() {
 	const htmlCode = `
-  <label className="checkbox">
+  <label class="checkbox">
     <input type='checkbox' />
-    <span className="slider"></span>
+    <span class="slider"></span>
   </label>
 	`;
 
