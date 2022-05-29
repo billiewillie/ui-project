@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { Button1, Button2, Button3, Button4, Button5, Button6, Button7 } from "../content/buttons";
+import { Button1, Button2, Button3, Button4, Button5, Button6 } from "../content/buttons";
 import { Link1, Link2, Link3, Link4 } from "../content/links";
-import { Input1, Input2, Input3 } from "../content/inputs";
+import { Input1, Input2, Input3, Input4, Input5 } from "../content/inputs";
 import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5 } from "../content/checkboxes";
 import { Toggle1, Toggle2, Toggle3 } from "../content/toggles";
 
@@ -11,7 +11,8 @@ export default function Home() {
 			<Head>
 				<title>Beautiful UI elements</title>
 			</Head>
-			<Button7 />
+			<Input5 />
+			<Input4 />
 			<Button4 />
 			<Checkbox4 />
 			<Button3 />

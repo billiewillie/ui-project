@@ -4,4 +4,3 @@ export { default as Button3 } from "./button3/Button.jsx";
 export { default as Button4 } from "./button4/Button.jsx";
 export { default as Button5 } from "./button5/Button.jsx";
 export { default as Button6 } from "./button6/Button.jsx";
-export { default as Button7 } from "./button7/Button.jsx";

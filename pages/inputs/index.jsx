@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Input1, Input2, Input3 } from "../../content/inputs";
+import { Input1, Input2, Input3, Input4, Input5 } from "../../content/inputs";
 
 export default function InputPage() {
 	return (
@@ -10,6 +10,8 @@ export default function InputPage() {
 			<Input1 />
 			<Input2 />
 			<Input3 />
+			<Input4 />
+			<Input5 />
 		</div>
 	);
 }
