@@ -11,23 +11,23 @@ export default function Home() {
 			<Head>
 				<title>Beautiful UI elements</title>
 			</Head>
-			<Input5 />
+			<Toggle1 />
 			<Input4 />
+			<Link2 />
 			<Button4 />
-			<Checkbox4 />
 			<Button3 />
 			<Toggle3 />
 			<Button1 />
+			<Checkbox4 />
 			<Toggle2 />
+			<Input5 />
 			<Input3 />
 			<Button2 />
 			<Checkbox5 />
 			<Link1 />
 			<Input2 />
 			<Checkbox1 />
-			<Toggle1 />
 			<Input1 />
-			<Link2 />
 			<Button6 />
 			<Link3 />
 			<Button5 />
