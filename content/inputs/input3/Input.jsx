@@ -12,7 +12,7 @@ const Input = () => {
 	return (
 		<Card id='input3' type='inputs'>
 			<div className={styles.group}>
-				<input id='input3email' className={styles.input} type='text' />
+				<input id='input3email' className={styles.input} type='text' placeholder=' ' />
 				<label className={styles.label} htmlFor='input3email'>
 					{labelText("Email")}
 				</label>
