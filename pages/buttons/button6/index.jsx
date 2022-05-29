@@ -1,9 +1,9 @@
-import { Button5 } from "../../../content/buttons";
+import { Button6 } from "../../../content/buttons";
 import LayoutElement from "../../../layout/LayoutElement.jsx";
 
-export default function ButtonPage5() {
+export default function ButtonPage6() {
 	const htmlCode = `
-	<button className="button">
+	<button class="button">
 		<span>
 			<span>Hover me</span>
 		</span>
@@ -13,36 +13,31 @@ export default function ButtonPage5() {
 	const cssCode = `
 	.button {
 		pointer-events: auto;
-		text-transform: uppercase;
 		cursor: pointer;
 		background: #e7e7e7;
-		border: none;
 		position: relative;
 		display: inline-block;
+		padding: 1rem 1.5rem;
+		border: 1px solid #000;
 		overflow: hidden;
 		color: #fff;
-		padding: 1rem 2rem;
 	}
 	
-	.button::before {
+	.button::after {
 		position: absolute;
+		content: "";
 		top: 0;
 		left: 0;
-		content: "";
-		background: #000;
 		width: 100%;
 		height: 100%;
-		transform-origin: 50% 100%;
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		transition: clip-path 0.2s, -webkit-clip-path 0.2s;
-		transition-timing-function: cubic-bezier(0.7, 0, 0.2, 1);
+		background: #000;
+		transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+		transform-origin: 100% 50%;
 	}
 	
-	.button:hover::before {
-		transition-duration: 0.3s;
-		-webkit-clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
-		clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+	.button:hover::after {
+		transform: scale3d(0, 1, 1);
+		transform-origin: 0% 50%;
 	}
 	
 	.button span {
@@ -52,11 +47,16 @@ export default function ButtonPage5() {
 	
 	.button > span {
 		overflow: hidden;
+	}
+	
+	.button > span > span {
+		overflow: hidden;
+		z-index: 1;
 		mix-blend-mode: difference;
 	}
 	
 	.button:hover > span > span {
-		animation: MoveUpInitial 0.3s forwards, MoveUpEnd 0.3s forwards 0.2s;
+		animation: MoveUpInitial 0.3s forwards, MoveUpEnd 0.3s forwards 0.3s;
 	}
 	
 	@keyframes MoveUpInitial {
@@ -77,7 +77,7 @@ export default function ButtonPage5() {
 
 	return (
 		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
-			<Button5 />
+			<Button6 />
 		</LayoutElement>
 	);
 }
