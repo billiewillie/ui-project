@@ -1,7 +1,7 @@
 import { Link4 } from "../../../content/links";
 import LayoutElement from "../../../layout/LayoutElement.jsx";
 
-export default function LinkPage3() {
+export default function LinkPage4() {
 	const htmlCode = `
   <p>
       <a class="link">Hover this link</a>

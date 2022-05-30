@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Link1, Link2, Link3, Link4 } from "../../content/links";
+import { Link1, Link2, Link3, Link4, Link5, Link6 } from "../../content/links";
 
 export default function LinkPage() {
 	return (
@@ -8,11 +8,13 @@ export default function LinkPage() {
 				<title>Link hovers with code</title>
 				<meta name='description' content='Copy the css and html code of links with pretty animation on hover event' />
 			</Head>
-			<h1>Collection of Link hover animations</h1>
+			<h1>Collection of Link hover animations</h1>
 			<Link1 />
 			<Link2 />
 			<Link3 />
 			<Link4 />
+			<Link5 />
+			<Link6 />
 		</div>
 	);
 }
