@@ -91,7 +91,12 @@ export default function ButtonPage4() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Button with scaling animation'
+			metaDescription='copy html and css code of button with scaling effect on hover'
+			title='Button with tidy scaling effect on hover'>
 			<Button4 />
 		</LayoutElement>
 	);

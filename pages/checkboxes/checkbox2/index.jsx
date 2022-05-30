@@ -105,7 +105,13 @@ export default function CheckboxPage2() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Checkbox with svg animation'
+			metaDescription='Copy html and css code of checkbox with stunning animation of svg element on check'
+			title='Checkbox with beautiful svg animation'>
 			<Checkbox2 />
 		</LayoutElement>
 	);

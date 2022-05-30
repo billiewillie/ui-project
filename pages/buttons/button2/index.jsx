@@ -84,7 +84,14 @@ export default function ButtonPage2() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsCode={jsCode}
+			jsxCode={jsxCode}
+			metaTitle='Button with bubling effect'
+			metaDescription='copy html, css and js code of button with complex animation. Hover effect depends on position of cursor.'
+			title='Button with pretty bubling effect on hover'>
 			<Button2 />
 		</LayoutElement>
 	);

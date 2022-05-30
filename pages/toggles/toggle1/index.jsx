@@ -260,7 +260,13 @@ export default function TogglePage1() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Toggle of dark and light mode'
+			metaDescription='Copy html, css and jsx code of toggle switcher with complex animation between sun and moon'
+			title='Toggle switcher with moon and sun'>
 			<Toggle1 />
 		</LayoutElement>
 	);

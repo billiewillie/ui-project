@@ -78,7 +78,13 @@ export default function TogglePage2() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Toggle of light and dark color'
+			metaDescription='Copy html, css and jsx code of toggle switcher with smooth animation between light and dark themes'
+			title='Toggle switcher with blue moon'>
 			<Toggle2 />
 		</LayoutElement>
 	);

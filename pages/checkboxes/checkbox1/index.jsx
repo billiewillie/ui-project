@@ -116,7 +116,13 @@ export default function CheckboxPage1() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Checkbox with bubble animation'
+			metaDescription='Copy html and css code of checkbox with bubble animation on check'
+			title='Checkbox with bubble animation on check'>
 			<Checkbox1 />
 		</LayoutElement>
 	);

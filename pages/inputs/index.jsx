@@ -5,8 +5,10 @@ export default function InputPage() {
 	return (
 		<div className='container'>
 			<Head>
-				<title>Creative form inputs</title>
+				<title>Inputs with code</title>
+				<meta name='description' content='Copy the css and html code of inputs with pretty animation on hover and click event' />
 			</Head>
+			<h1>Collection of inputs</h1>
 			<Input1 />
 			<Input2 />
 			<Input3 />

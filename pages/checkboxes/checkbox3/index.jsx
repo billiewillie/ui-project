@@ -117,7 +117,13 @@ export default function CheckboxPage3() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Checkbox with check animation'
+			metaDescription='Copy html, css and jsx code of checkbox with fancy appearance of check'
+			title='Checkbox with fancy appearance'>
 			<Checkbox3 />
 		</LayoutElement>
 	);

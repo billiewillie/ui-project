@@ -10,7 +10,9 @@ export default function Home() {
 		<div className='container'>
 			<Head>
 				<title>Beautiful UI elements</title>
+				<meta name='description' content='Copy the code of inputs, buttons, checkboxes, toggles and link hover effects and paste it in your editor' />
 			</Head>
+			<h1>UI elements with code</h1>
 			<Input4 />
 			<Toggle1 />
 			<Link2 />

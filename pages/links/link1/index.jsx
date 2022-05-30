@@ -54,7 +54,12 @@ export default function LinkPage1() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Link with surrounding animation'
+			metaDescription='Copy html and css code of link with amazing surrounding svg animation on hover'
+			title='Link with surrounding svg animation'>
 			<Link1 />
 		</LayoutElement>
 	);

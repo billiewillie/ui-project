@@ -74,7 +74,13 @@ export default function InputPage3() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsCode={jsCode}
+			metaTitle='Input with funky label'
+			metaDescription='Copy html, css and js code of input with crazy animation of label. Letters rise up consistently after focus event'
+			title='Input with consistent animation of label'>
 			<Input3 />
 		</LayoutElement>
 	);

@@ -47,7 +47,12 @@ export default function InputPage1() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Input with animated label'
+			metaDescription='Copy html and css code of input with scaled down label effect on focus'
+			title='Input with scaling effect for label'>
 			<Input1 />
 		</LayoutElement>
 	);

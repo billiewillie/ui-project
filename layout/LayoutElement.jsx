@@ -1,3 +1,4 @@
+import Head from "next/head";
 import styles from "./LayoutElement.module.css";
 import CodeBlock from "../components/codeBlock/CodeBlock.jsx";
 import React, { useRef } from "react";
@@ -21,6 +22,11 @@ const LayoutElement = ({ children, ...props }) => {
 
 	return (
 		<div className={styles.containerElement}>
+			<Head>
+				<title>{props.metaTitle}</title>
+				<meta name='description' content={props.metaDescription} />
+			</Head>
+			<h1 className={styles.pageTitle}>{props.title}</h1>
 			{children}
 			<CodeBlock onClick={() => copyToClipboard(htmlAreaRef)} ref={htmlAreaRef} title='HTML'>
 				{props.htmlCode}

@@ -71,7 +71,12 @@ export default function InputPage4() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Input with animated corners'
+			metaDescription='Copy html and css code of input with animated border-radius of field on hover'
+			title='Input with animated border-radius on hover'>
 			<Input4 />
 		</LayoutElement>
 	);

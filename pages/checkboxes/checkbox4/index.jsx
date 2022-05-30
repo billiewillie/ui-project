@@ -234,7 +234,13 @@ export default function CheckboxPage4() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Checkbox with firework animation'
+			metaDescription='Copy html and css code of checkbox with complex firework animation of svg element and text field on check'
+			title='Checkbox with firework svg animation'>
 			<Checkbox4 />
 		</LayoutElement>
 	);

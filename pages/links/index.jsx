@@ -5,8 +5,10 @@ export default function LinkPage() {
 	return (
 		<div className='container'>
 			<Head>
-				<title>Pretty UI link hovers</title>
+				<title>Link hovers with code</title>
+				<meta name='description' content='Copy the css and html code of links with pretty animation on hover event' />
 			</Head>
+			<h1>Collection of Link hover animations</h1>
 			<Link1 />
 			<Link2 />
 			<Link3 />

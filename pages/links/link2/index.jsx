@@ -37,7 +37,12 @@ export default function LinkPage2() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Link with expanding animation'
+			metaDescription='Copy html and css code of link with stunning expanding animation of background on hover'
+			title='Link with expanding animation'>
 			<Link2 />
 		</LayoutElement>
 	);

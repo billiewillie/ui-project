@@ -1,7 +1,7 @@
 import { Checkbox5 } from "../../../content/checkboxes";
 import LayoutElement from "../../../layout/LayoutElement.jsx";
 
-export default function CheckboxPage4() {
+export default function CheckboxPage5() {
 	const htmlCode = `
     <label class="checkbox">
         <input type="checkbox" />
@@ -157,7 +157,13 @@ export default function CheckboxPage4() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Checkbox with splash animation'
+			metaDescription='Copy html, css and jsx code of checkbox with brilliant splash animation of svg element on check'
+			title='Checkbox with splash svg animation on check'>
 			<Checkbox5 />
 		</LayoutElement>
 	);

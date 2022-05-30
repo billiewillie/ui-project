@@ -76,7 +76,12 @@ export default function ButtonPage5() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Button with turning corner animation'
+			metaDescription='Copy html and css code of button with cool effect of turning corner animation on hover'
+			title='Button with turning corner effect on hover'>
 			<Button5 />
 		</LayoutElement>
 	);

@@ -50,7 +50,12 @@ export default function ButtonPage3() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Button with rolling effect'
+			metaDescription='Copy html and css code of button with rolling effect to right side.'
+			title='Button with cool rolling effect on hover'>
 			<Button3 />
 		</LayoutElement>
 	);

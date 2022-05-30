@@ -8,6 +8,10 @@
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+.pageTitle {
+	display: none;
+}
+
 @media (min-width: 1200px) {
 	.containerElement {
 		grid-gap: 16px;

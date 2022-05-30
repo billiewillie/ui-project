@@ -55,7 +55,12 @@ export default function InputPage5() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Input with animated field'
+			metaDescription='Copy html and css code of input with animated field on hover'
+			title='Input with animated field on hover'>
 			<Input5 />
 		</LayoutElement>
 	);

@@ -5,8 +5,10 @@ export default function ButtonPage() {
 	return (
 		<div className='container'>
 			<Head>
-				<title>Beautiful buttons for site</title>
+				<title>Buttons with code</title>
+				<meta name='description' content='Copy the css and html code of buttons with hover effect' />
 			</Head>
+			<h1>Collection of buttons</h1>
 			<Button1 />
 			<Button2 />
 			<Button3 />

@@ -27,7 +27,12 @@ export default function LinkPage3() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Link with covering animation'
+			metaDescription='Copy html and css code of link with cool animation of changing background-color and text color on hover'
+			title='Link with animation of text and background'>
 			<Link4 />
 		</LayoutElement>
 	);

@@ -46,7 +46,12 @@ export default function ButtonPage1() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Button with sliding effect'
+			metaDescription='copy html and css code of button with amazing sliding effect'
+			title='Button with beautiful sliding effect on hover'>
 			<Button1 />
 		</LayoutElement>
 	);

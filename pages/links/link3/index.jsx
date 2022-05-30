@@ -36,7 +36,12 @@ export default function LinkPage3() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			metaTitle='Link with tricky effect'
+			metaDescription='Copy html and css code of link with animated after element which appears on left side and desappears on right side'
+			title='Link with animation'>
 			<Link3 />
 		</LayoutElement>
 	);

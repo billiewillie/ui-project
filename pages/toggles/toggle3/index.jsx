@@ -75,7 +75,13 @@ export default function TogglePage3() {
 	`;
 
 	return (
-		<LayoutElement htmlCode={htmlCode} cssCode={cssCode} jsxCode={jsxCode}>
+		<LayoutElement
+			htmlCode={htmlCode}
+			cssCode={cssCode}
+			jsxCode={jsxCode}
+			metaTitle='Toggle with stretching dot'
+			metaDescription='Copy html, css and jsx code of toggle switcher with stretching animation of dot and colorful sign'
+			title='Toggle switcher with stretching dot'>
 			<Toggle3 />
 		</LayoutElement>
 	);
