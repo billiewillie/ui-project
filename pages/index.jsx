@@ -13,22 +13,23 @@ export default function Home() {
 				<meta name='description' content='Copy the code of inputs, buttons, checkboxes, toggles and link hover effects and paste it in your editor' />
 			</Head>
 			<h1>UI elements with code</h1>
-			<Link6 />
-			<Link7 />
-			<Input4 />
 			<Toggle1 />
-			<Link2 />
+			<Input3 />
+			<Checkbox2 />
+			<Link7 />
 			<Button4 />
+			<Input4 />
+			<Link2 />
 			<Toggle3 />
+			<Link6 />
 			<Button1 />
+			<Input5 />
 			<Toggle4 />
 			<Checkbox4 />
 			<Toggle2 />
 			<Button3 />
-			<Input5 />
 			<Link5 />
 			<Button2 />
-			<Input3 />
 			<Checkbox5 />
 			<Link1 />
 			<Input2 />
@@ -37,7 +38,6 @@ export default function Home() {
 			<Button6 />
 			<Link3 />
 			<Button5 />
-			<Checkbox2 />
 			<Link4 />
 			<Checkbox3 />
 		</div>
