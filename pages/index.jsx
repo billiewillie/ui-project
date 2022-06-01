@@ -3,7 +3,7 @@ import { Button1, Button2, Button3, Button4, Button5, Button6 } from "../content
 import { Link1, Link2, Link3, Link4, Link5, Link6, Link7 } from "../content/links";
 import { Input1, Input2, Input3, Input4, Input5 } from "../content/inputs";
 import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5 } from "../content/checkboxes";
-import { Toggle1, Toggle2, Toggle3, Toggle4 } from "../content/toggles";
+import { Toggle1, Toggle2, Toggle3, Toggle4, Toggle5 } from "../content/toggles";
 
 export default function Home() {
 	return (
@@ -29,6 +29,7 @@ export default function Home() {
 			<Toggle2 />
 			<Button3 />
 			<Link5 />
+			<Toggle5 />
 			<Button2 />
 			<Checkbox5 />
 			<Link1 />
