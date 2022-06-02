@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Button1, Button2, Button3, Button4, Button5, Button6 } from "../../content/buttons";
+import { Button1, Button2, Button3, Button4, Button5, Button6, Button7 } from "../../content/buttons";
 
 export default function ButtonPage() {
 	return (
@@ -15,6 +15,7 @@ export default function ButtonPage() {
 			<Button4 />
 			<Button5 />
 			<Button6 />
+			<Button7 />
 		</div>
 	);
 }

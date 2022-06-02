@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Button1, Button2, Button3, Button4, Button5, Button6 } from "../content/buttons";
+import { Button1, Button2, Button3, Button4, Button5, Button6, Button7 } from "../content/buttons";
 import { Link1, Link2, Link3, Link4, Link5, Link6, Link7 } from "../content/links";
 import { Input1, Input2, Input3, Input4, Input5 } from "../content/inputs";
 import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5 } from "../content/checkboxes";
@@ -13,6 +13,7 @@ export default function Home() {
 				<meta name='description' content='Copy the code of inputs, buttons, checkboxes, toggles and link hover effects and paste it in your editor' />
 			</Head>
 			<h1>UI elements with code</h1>
+			<Button7 />
 			<Toggle1 />
 			<Input3 />
 			<Checkbox2 />
