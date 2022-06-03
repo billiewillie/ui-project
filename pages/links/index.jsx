@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Link1, Link2, Link3, Link4, Link5, Link6, Link7 } from "../../content/links";
+import { Link1, Link2, Link3, Link4, Link5, Link6, Link7, Link8 } from "../../content/links";
 
 export default function LinkPage() {
 	return (
@@ -16,6 +16,7 @@ export default function LinkPage() {
 			<Link5 />
 			<Link6 />
 			<Link7 />
+			<Link8 />
 		</div>
 	);
 }
