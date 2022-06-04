@@ -54,6 +54,7 @@ export default function TogglePage4() {
         height: 100%;
         margin: 0;
         opacity: 0;
+        cursor: pointer;
     }
     
     .checkbox .left {

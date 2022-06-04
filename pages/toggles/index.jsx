@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Toggle1, Toggle2, Toggle3, Toggle4, Toggle5, Toggle6 } from "../../content/toggles";
+import { Toggle1, Toggle2, Toggle3, Toggle4, Toggle5, Toggle6, Toggle7 } from "../../content/toggles";
 
 export default function TogglePage() {
 	return (
@@ -15,6 +15,7 @@ export default function TogglePage() {
 			<Toggle4 />
 			<Toggle5 />
 			<Toggle6 />
+			<Toggle7 />
 		</div>
 	);
 }

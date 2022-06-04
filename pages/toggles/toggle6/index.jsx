@@ -3,9 +3,7 @@ import LayoutElement from "../../../layout/LayoutElement.jsx";
 
 export default function TogglePage6() {
 	const htmlCode = `
-    <label class="checkbox">
-        <input type='checkbox' class="switch" />
-    </label>
+    <input type='checkbox' class="switch" />
 	`;
 
 	const jsxCode = `
@@ -19,19 +17,12 @@ export default function TogglePage6() {
         };
 
         return (
-			<label className={styles.checkbox}>
-				<input type='checkbox' className={styles.switch} checked={checked} onChange={handler} />
-			</label>
+			<input type='checkbox' className={styles.switch} checked={checked} onChange={handler} />
         );
     };  
 	`;
 
-	const cssCode = ` 
-    .checkbox {
-        width: 130px;
-        height: 100px;
-    }
-    
+	const cssCode = `
     .switch {
         position: relative;
         width: 130px;

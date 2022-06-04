@@ -1,0 +1,25 @@
+.input {
+	border: 2px solid transparent;
+	border-bottom-color: rgb(131, 131, 131);
+	padding: 8px 0;
+	outline: none;
+	background-color: transparent;
+	transition: 0.33s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus,
+.input:hover {
+	outline: none;
+	padding: 8px 16px;
+	border-radius: 30px;
+	border-color: #7aa0cf;
+}
+
+.input::placeholder {
+	color: rgb(131, 131, 131);
+}
+
+.input:focus::placeholder {
+	opacity: 0;
+	transition: opacity 0.33s;
+}

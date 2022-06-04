@@ -112,8 +112,8 @@ export default function InputPage6() {
 			htmlCode={htmlCode}
 			cssCode={cssCode}
 			metaTitle='Input with expanding border'
-			metaDescription='Copy html and css code of input with animated border of input expanding from center after clicking on element'
-			title='Input with expanding border of input'>
+			metaDescription='Copy html and css code of input with animated border that expands from center after clicking on element'
+			title='Input with expanding border'>
 			<Input6 />
 		</LayoutElement>
 	);

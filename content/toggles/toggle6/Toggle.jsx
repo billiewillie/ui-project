@@ -9,9 +9,7 @@ const Toggle = () => {
 	};
 	return (
 		<Card id='toggle6' type='toggles'>
-			<div className={styles.checkbox}>
-				<input type='checkbox' className={styles.switch} checked={checked} onChange={handler} />
-			</div>
+			<input type='checkbox' className={styles.switch} checked={checked} onChange={handler} />
 		</Card>
 	);
 };
