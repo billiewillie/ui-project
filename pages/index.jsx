@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Button1, Button2, Button3, Button4, Button5, Button6, Button7 } from "../content/buttons";
 import { Link1, Link2, Link3, Link4, Link5, Link6, Link7, Link8 } from "../content/links";
 import { Input1, Input2, Input3, Input4, Input5, Input6, Input7 } from "../content/inputs";
-import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5 } from "../content/checkboxes";
+import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5, Checkbox6, Checkbox7 } from "../content/checkboxes";
 import { Toggle1, Toggle2, Toggle3, Toggle4, Toggle5, Toggle6, Toggle7 } from "../content/toggles";
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
 			<Input4 />
 			<Link2 />
 			<Toggle3 />
+			<Checkbox7 />
 			<Link6 />
 			<Button1 />
 			<Input5 />
@@ -42,6 +43,7 @@ export default function Home() {
 			<Toggle7 />
 			<Input1 />
 			<Button6 />
+			<Checkbox6 />
 			<Link3 />
 			<Button5 />
 			<Input7 />

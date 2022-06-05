@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5 } from "../../content/checkboxes";
+import { Checkbox1, Checkbox2, Checkbox3, Checkbox4, Checkbox5, Checkbox6, Checkbox7 } from "../../content/checkboxes";
 
 export default function CheckboxPage() {
 	return (
@@ -14,6 +14,8 @@ export default function CheckboxPage() {
 			<Checkbox3 />
 			<Checkbox4 />
 			<Checkbox5 />
+			<Checkbox6 />
+			<Checkbox7 />
 		</div>
 	);
 }
